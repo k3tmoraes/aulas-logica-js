@@ -11,8 +11,48 @@
 // nome = "ket"
 
 // variável declarada com const
-// const nome = "kit"
+const nome = "kit" //string
 
-// nome ="ket"
+const sobrenome = "ket"
 
- console.log(nome)
+const valor = 21.90 //number
+
+const islogin = false // boolean
+
+let preco //undefined
+
+const endereco = null //null
+
+const alunos = ["João","Maria","José"] // array
+
+const alunoDoSenai ={
+    nome: "Ket",
+    sobrenome: "Moraes",
+    turno:"Noturno",
+    idade:17,
+    cursos:["Games","Programação web"]
+}
+
+const alunosDoSenai = [
+    {
+        login:"joão",
+        email:"joão@gmail.com",
+        cursos:["games","web"]
+    },
+    {
+        login:"maria",
+        email:"maria@gmail.com",
+        cursos:["desing","games"]
+    }
+]
+
+// console.log(nome + "" + sobrenome)
+
+    console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 + 4}`)
+
+// console.log(alunosDoSenai[1].cursos[0])
+
+
+
+// console.log(alunos[0]) //Pega o valor do índice do array
+
